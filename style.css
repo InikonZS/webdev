@@ -91,6 +91,7 @@ body{
   background-color: #fff;
   color: #000;
   height: 464px;
+  padding-bottom: 60px;
 }
 
 .footer{
@@ -135,27 +136,57 @@ body{
   height: 46px;
   width: 180px;
   background-color: rgb(111, 143, 202);
-  margin-right: 10px;
   display:flex;
   justify-content: center;
   align-items: center;
   color:#fff;
+  margin: 30px 0px;
+}
+
+.button2{
+  height: 46px;
+  width: 186px;
+  background-color: rgb(111, 143, 202);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  margin: 30px 15px;
 }
 
 .header1{
-  font-size: 47pt;
-  font-weight: 600;
-  letter-spacing: 5px;
-
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 75px;
+  letter-spacing: 4.5px;
   margin-bottom: 22px;
 }
 
-.header2{
+/*.header2{
+  text-transform: uppercase;
   font-size: 18pt;
   letter-spacing: 1px;
+  line-height: 21pt;
   font-weight: 500;
+  margin-bottom: 21px;
+}*/
+.header2{
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  line-height: 28px;
+  margin: 20px 0px;
+}
 
-  margin-bottom: 18px;
+.header3{
+  text-transform: uppercase;
+  font-size: 14pt;
+  letter-spacing: 1px;
+  line-height: 21pt;
+  font-weight: 500;
+  margin-bottom: 8px;
+  margin-top: 8px;
 }
 
 .text1{
@@ -164,7 +195,7 @@ body{
   line-height: 15pt;
   letter-spacing: 0.3px;
 
-  margin-bottom: 30px;
+/*  margin-bottom: 30px;*/
 }
 
 .text2{
@@ -177,9 +208,38 @@ body{
   margin-bottom: 28px;
 }
 
+.text_center{
+  text-align: center;
+
+  margin-bottom: 4px;
+}
+
+.text_center2{
+  text-align: center;
+}
+
+.field{
+  box-sizing: border-box;
+  margin: 0px;
+  border-style: none;
+  width:340px;
+  margin: 30px 0px;
+}
+.button_ok{
+  width:66px;
+  background-image: url("assets/check-icon.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.buttons{
+  display: flex;
+  justify-content: center;
+}
+
 @font-face {
   font-family: Roboto;
-  font-weight: 200;
+  font-weight: 100;
   src: url(assets/font/Roboto-Thin.ttf);
 }
 @font-face {
@@ -199,11 +259,24 @@ body{
 }
 @font-face {
   font-family: Roboto;
-  font-weight: 600;
+  font-weight: 700;
   src: url(assets/font/Roboto-Bold.ttf);
 }
 @font-face {
   font-family: Roboto;
-  font-weight: 700;
+  font-weight: 900;
   src: url(assets/font/Roboto-Black.ttf);
 }
+
+/*
+    margin-top: 12px;
+    margin-bottom: 12px;
+
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+    margin-bottom: 15px;
+    margin-top: 15px;
+
+    10 for form
+*/
